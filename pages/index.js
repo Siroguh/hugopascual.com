@@ -1,14 +1,18 @@
-import Link from 'next/link';
-import Head from '../components/head';
-import Nav from '../components/nav';
+import Link from "next/link";
+import Head from "../components/head";
+import Nav from "../components/nav";
 
 export default () => (
   <div>
     <Head title="Home" />
     <Nav />
     <div className="hero">
-      <h1 className="title">Welcome to Create Next App (Create Next.js App building tools)</h1>
-      <p className="description">To get started, edit <code>pages/index.js</code> and save to reload.</p>
+      <h1 className="title">
+        Welcome to Create Next App (Create Next.js App building tools)
+      </h1>
+      <p className="description">
+        To get started, edit <code>pages/index.js</code> and save to reload.
+      </p>
       <div className="row">
         <Link href="//nextjs.org/docs/">
           <a className="card">
@@ -18,7 +22,7 @@ export default () => (
         </Link>
         <Link href="//github.com/create-next-app/create-next-app">
           <a className="card">
-            <h3>Create Next App&rarr;</h3>
+            <h3>Create Next App!!!!!!!!&rarr;</h3>
             <p>Was this tools helpful?</p>
           </a>
         </Link>
@@ -38,7 +42,8 @@ export default () => (
         line-height: 1.15;
         font-size: 37px;
       }
-      .title, .description {
+      .title,
+      .description {
         text-align: center;
       }
       .row {
@@ -54,7 +59,7 @@ export default () => (
         text-align: left;
         text-decoration: none;
         color: #434343;
-        border: 1px solid #9B9B9B;
+        border: 1px solid #9b9b9b;
       }
       .card:hover {
         border-color: #067df7;
